@@ -1,0 +1,69 @@
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 4
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Undefined array key "caption" in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 5
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Undefined array key "image" in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 7
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 7
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Undefined array key "image" in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 8
+[15-Jan-2026 12:58:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 8
+[15-Jan-2026 12:58:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php:13
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php(13): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 13
+[15-Jan-2026 12:59:25 UTC] PHP Warning:  Undefined array key "username" in /home/pencari2/public_html/pencari2_wirabuana_api/register.php on line 4
+[15-Jan-2026 12:59:25 UTC] PHP Warning:  Undefined array key "password" in /home/pencari2/public_html/pencari2_wirabuana_api/register.php on line 5
+[15-Jan-2026 12:59:25 UTC] PHP Warning:  Undefined array key "nama" in /home/pencari2/public_html/pencari2_wirabuana_api/register.php on line 6
+[15-Jan-2026 17:34:22 UTC] PHP Warning:  move_uploaded_file(../uploads/1768498462_34.png): Failed to open stream: No such file or directory in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 11
+[15-Jan-2026 17:34:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php9gohxR&quot; to &quot;../uploads/1768498462_34.png&quot; in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 11
+[15-Jan-2026 17:41:44 UTC] PHP Warning:  Undefined array key "post_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 4
+[15-Jan-2026 17:41:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 10
+[15-Jan-2026 17:41:44 UTC] PHP Warning:  unlink(../uploads/): No such file or directory in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 10
+[15-Jan-2026 17:41:52 UTC] PHP Warning:  Undefined array key "post_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 4
+[15-Jan-2026 17:41:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 10
+[15-Jan-2026 17:41:52 UTC] PHP Warning:  unlink(../uploads/): No such file or directory in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 10
+[15-Jan-2026 18:03:54 UTC] PHP Warning:  Undefined array key "post_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 4
+[15-Jan-2026 18:03:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_url' in 'SELECT' in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:7
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 7
+[15-Jan-2026 18:08:07 UTC] PHP Warning:  move_uploaded_file(/home/pencari2/public_html/assets/images/69692d070c2b8.png): Failed to open stream: No such file or directory in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 20
+[15-Jan-2026 18:08:07 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpP0Z7VY&quot; to &quot;/home/pencari2/public_html/assets/images/69692d070c2b8.png&quot; in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 20
+[15-Jan-2026 18:08:37 UTC] PHP Warning:  move_uploaded_file(/home/pencari2/public_html/assets/images/69692d25bb9b9.png): Failed to open stream: No such file or directory in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 20
+[15-Jan-2026 18:08:37 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpwzb5vR&quot; to &quot;/home/pencari2/public_html/assets/images/69692d25bb9b9.png&quot; in /home/pencari2/public_html/pencari2_wirabuana_api/post_create.php on line 20
+[15-Jan-2026 18:21:10 UTC] PHP Warning:  Undefined array key "post_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_update.php on line 4
+[15-Jan-2026 18:21:10 UTC] PHP Warning:  Undefined array key "caption" in /home/pencari2/public_html/pencari2_wirabuana_api/post_update.php on line 5
+[15-Jan-2026 18:21:30 UTC] PHP Warning:  Undefined array key "post_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_update.php on line 4
+[15-Jan-2026 18:21:30 UTC] PHP Warning:  Undefined array key "caption" in /home/pencari2/public_html/pencari2_wirabuana_api/post_update.php on line 5
+[16-Jan-2026 07:16:35 UTC] PHP Parse error:  syntax error, unexpected token "]", expecting "-" or identifier or variable or number in /home/pencari2/public_html/pencari2_wirabuana_api/comment_list.php on line 16
+[16-Jan-2026 07:16:41 UTC] PHP Parse error:  syntax error, unexpected token "]", expecting "-" or identifier or variable or number in /home/pencari2/public_html/pencari2_wirabuana_api/comment_list.php on line 16
+[16-Jan-2026 07:16:58 UTC] PHP Parse error:  syntax error, unexpected token "]", expecting "-" or identifier or variable or number in /home/pencari2/public_html/pencari2_wirabuana_api/comment_list.php on line 16
+[17-Jan-2026 03:31:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:27
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 27
+[17-Jan-2026 03:31:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:27
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 27
+[17-Jan-2026 03:31:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:27
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 27
+[17-Jan-2026 03:32:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:27
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(27): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 27
+[17-Jan-2026 03:36:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pencari2_wirabuana_pinterest`.`comments`, CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`)) in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php:30
+Stack trace:
+#0 /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php(30): mysqli_query()
+#1 {main}
+  thrown in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 30
+[17-Jan-2026 03:42:28 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 5
+[17-Jan-2026 03:44:16 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 5
+[17-Jan-2026 03:44:53 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 5
+[17-Jan-2026 03:47:27 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 5
+[17-Jan-2026 03:47:42 UTC] PHP Warning:  Undefined array key "user_id" in /home/pencari2/public_html/pencari2_wirabuana_api/post_delete.php on line 5
